@@ -1,5 +1,7 @@
 CODED BY K0Z1OL
 
+I USED GREAT TOOL FROM https://github.com/trustedsec/unicorn.git THANKS AUTHORS !
+
 SCRIPT TESTED ON KALI LINUX ARM ON RPI4
 
 Installation:
