@@ -10,5 +10,5 @@ Installation:
 
 Usage:
 
-1. sudo metasploit_exe_injection.sh
-2. sudo metasploit_bat_shell.sh
+1. sudo ./metasploit_exe_injection.sh
+2. sudo ./metasploit_bat_shell.sh
