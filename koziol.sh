@@ -9,7 +9,7 @@ echo "
 "
 echo "IF YOU CAN'T FIND VULNERABILITY YOU MUST MAKE IT !!!"
 echo "Which option do you choose ?"
-echo -e "1. METASPLOIT LOW DETACTION WINDOWS PAYLOAD \n2. METASPLOIT EXE PAYLOAD INJECT"
+echo -e "1. METASPLOIT LOW DETACTION WINDOWS PAYLOAD \n2. METASPLOIT EXE PAYLOAD INJECT\n3. DOS SCRIPT"
 read ODPOWIEDZ
 if [ $ODPOWIEDZ == "1" ]
 then
@@ -23,4 +23,10 @@ then
   echo "Uruchamiam wybrany skrypt... "
   cd /home/kali/Desktop/METASPLOIT-BY-KOZIOL/metasploit
   sudo ./metasploit_exe_injection.sh
+fi
+if [ $ODPOWIEDZ == "3" ]
+then
+  echo "Uruchamiam wybrany skrypt... "
+  cd /home/kali/Desktop/METASPLOIT-BY-KOZIOL/metasploit
+  sudo ./DOS.sh
 fi
