@@ -1,7 +1,5 @@
 CODED BY K0Z1OL
 
-ANDROID SCRIPT DONT WORK !!! I'm working on it.
-
 SCRIPT TESTED ON KALI LINUX ARM ON RPI4
 
 Installation:
