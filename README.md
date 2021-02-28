@@ -26,5 +26,4 @@ Installation:
 
 Usage:
 
-1. sudo ./metasploit_exe_injection.sh
-2. sudo ./metasploit_bat_shell.sh
+sudo ./KOZ1OLMENU.sh
