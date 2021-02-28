@@ -15,18 +15,18 @@ if [ $ODPOWIEDZ == "1" ]
 then
   echo "Uruchamiam wybrany skrypt... "
   sleep 3
-  cd /home/kali/Desktop/METASPLOIT-BY-KOZIOL/metasploit
+  cd /home/kali/Desktop/KOZ1OLMENU/metasploit
   sudo ./metasploit_bat_shell.sh
 fi
 if [ $ODPOWIEDZ == "2" ]
 then
   echo "Uruchamiam wybrany skrypt... "
-  cd /home/kali/Desktop/METASPLOIT-BY-KOZIOL/metasploit
+  cd /home/kali/Desktop/KOZ1OLMENU/metasploit
   sudo ./metasploit_exe_injection.sh
 fi
 if [ $ODPOWIEDZ == "3" ]
 then
   echo "Uruchamiam wybrany skrypt... "
-  cd /home/kali/Desktop/METASPLOIT-BY-KOZIOL/metasploit
+  cd /home/kali/Desktop/KOZ1OLMENU/metasploit
   sudo ./DOS.sh
 fi
