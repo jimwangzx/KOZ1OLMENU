@@ -1,9 +1,9 @@
 ![obraz_2021-02-28_143651](https://user-images.githubusercontent.com/51675112/109420379-646ead00-79d2-11eb-82e8-cd46a2bc6c82.png)
 
 KOZ1OLMENU It's a hacking menu which can:
-- Make bat payload with low detaction
+- Make bat payload with low detaction using unicorn shell code
 ![obraz_2021-02-28_144538](https://user-images.githubusercontent.com/51675112/109420585-9f251500-79d3-11eb-824e-39570cc3e9d3.png)
-- Inject MSF payload in EXE file
+- Inject MSF payload in EXE file using "x" parametr on MSFVENOM
 - Make DOS attack using HPING3 method
 
 Script use:
