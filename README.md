@@ -18,8 +18,8 @@ SCRIPT TESTED ON KALI LINUX ARM ON RPI4
 
 Installation:
 
-1. git clone https://github.com/kozixpompa/METASPLOIT-BY-KOZIOL.git
-2. cd METASPLOIT-BY-KOZIOL
+1. git clone https://github.com/kozixpompa/KOZ1OLMENU.git
+2. cd KOZ1OLMENUL
 3. chmod +x installer.sh 
 4. sudo ./installer.sh
 
