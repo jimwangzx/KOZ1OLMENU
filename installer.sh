@@ -8,8 +8,8 @@ echo "
 "
 echo "Instaluję... "
 sleep 3
-sudo chmod +x /home/kali/Desktop/METASPLOIT-BY-KOZIOL/metasploit/metasploit_exe_injection.sh
-sudo chmod +x /home/kali/Desktop/METASPLOIT-BY-KOZIOL/metasploit/metasploit_bat_shell.sh
-sudo chmod +x /home/kali/Desktop/METASPLOIT-BY-KOZIOL/K0Z1OLMENU.sh
-cd /home/kali/Desktop/METASPLOIT-BY-KOZIOL
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_exe_injection.sh
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_bat_shell.sh
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/K0Z1OLMENU.sh
+cd /home/kali/Desktop/KOZ1OLMENU
 git clone https://github.com/trustedsec/unicorn.git
