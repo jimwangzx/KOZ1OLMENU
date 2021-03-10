@@ -15,9 +15,9 @@ Script use:
 - HPING3 Tool
 - UNICORN TOOL (https://github.com/trustedsec/unicorn.git)
 
-NOW SCRIPT WORKS ONLY ON KALI LINUX 
+<b>NOW SCRIPT WORKS ONLY ON KALI LINUX</b> 
 
-SCRIPT TESTED ON KALI LINUX ARM ON RPI4
+<b>SCRIPT TESTED ON KALI LINUX ARM ON RPI4</b>
 
 # Installation:
 
