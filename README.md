@@ -1,4 +1,8 @@
+# K0Z1OLMENU
+
 ![obraz_2021-02-28_143651](https://user-images.githubusercontent.com/51675112/109420379-646ead00-79d2-11eb-82e8-cd46a2bc6c82.png)
+
+# IT'S A GREAT TOOL
 
 KOZ1OLMENU It's a hacking menu which can:
 - Make bat payload with low detaction using unicorn shell code
@@ -12,11 +16,10 @@ Script use:
 - UNICORN TOOL (https://github.com/trustedsec/unicorn.git)
 
 NOW SCRIPT WORKS ONLY ON KALI LINUX 
-.
 
 SCRIPT TESTED ON KALI LINUX ARM ON RPI4
 
-Installation:
+# Installation:
 
 1. git clone https://github.com/kozixpompa/KOZ1OLMENU.git
 2. cd KOZ1OLMENUL
@@ -24,6 +27,6 @@ Installation:
 4. sudo ./installer.sh
 
 
-Usage:
+# Usage:
 
 sudo ./KOZ1OLMENU.sh
