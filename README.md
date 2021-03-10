@@ -30,3 +30,11 @@ SCRIPT TESTED ON KALI LINUX ARM ON RPI4
 # Usage:
 
 sudo ./KOZ1OLMENU.sh
+
+
+## DISCLAIMER
+<p align="center">
+  TO BE USED FOR EDUCATIONAL PURPOSES ONLY
+</p>
+
+The use of the KOZ1OLMENU is COMPLETE RESPONSIBILITY of the END-USER. Developer assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
