@@ -1,6 +1,6 @@
 # 🔑 KOZ1OLMENU 🔑
 
-[![GitHub license](https://img.shields.io/github/license/kozixpompa/KOZ1OLMENU)](https://github.com/kozixpompa/KOZ1OLMENU/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/kozixpompa/KOZ1OLMENU)](https://https://github.com/kozixpompa/KOZ1OLMENU/blob/main/LICENSE)
 
 ![obraz_2021-02-28_143651](https://user-images.githubusercontent.com/51675112/109420379-646ead00-79d2-11eb-82e8-cd46a2bc6c82.png)
 
