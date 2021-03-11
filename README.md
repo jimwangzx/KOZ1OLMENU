@@ -24,6 +24,8 @@ Script use:
 - HPING3 Tool
 - UNICORN TOOL (https://github.com/trustedsec/unicorn.git)
 - Nmap
+- gnome-terminal
+- Ngrok
 
 <b>NOW SCRIPT WORKS ONLY ON KALI LINUX !!! </b> 
 
