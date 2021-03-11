@@ -43,7 +43,7 @@ do
      [5][oO]|[5])
   echo "Starting script... "
   cd /home/kali/Desktop/KOZ1OLMENU/metasploit
-  sudo ./servicengrok.sh
+  ./servicengrok.sh
  break
         ;;
      *)
