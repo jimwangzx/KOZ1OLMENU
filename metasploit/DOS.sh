@@ -17,6 +17,7 @@ do
  case $start in
      [yY][eE][sS]|[yY])
   cd ..
+  clear
   sudo ./K0Z1OLMENU.sh
  break
  ;;
