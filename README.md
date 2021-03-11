@@ -44,7 +44,7 @@ Script use:
 
 <b>In first use of Ngrok you must paste token. Open terminal and use:
  1. cd /home/kali/Desktop/KOZ1OLMENU/ngrok
- 2. ngrok authtoken <YOUR_TOKEN>
+ 2. ./ngrok authtoken <YOUR_TOKEN>
  
 # Usage:
 
