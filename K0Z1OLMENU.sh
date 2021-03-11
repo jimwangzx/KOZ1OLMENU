@@ -10,23 +10,32 @@ echo "
 echo "IF YOU CAN'T FIND VULNERABILITY YOU MUST MAKE IT !!!"
 echo "Which option do you choose ?"
 echo -e "1. METASPLOIT LOW DETACTION WINDOWS PAYLOAD \n2. METASPLOIT EXE PAYLOAD INJECT\n3. DOS SCRIPT"
-read ODPOWIEDZ
-if [ $ODPOWIEDZ == "1" ]
-then
-  echo "Uruchamiam wybrany skrypt... "
-  sleep 3
+echo "If you want stop script click ctrl+c"
+while true
+do
+ read -r -p "Which option do you choose ? - " input
+ 
+ case $input in
+     [1][eE][sS]|[1])
+  echo "Starting script... "
   cd /home/kali/Desktop/KOZ1OLMENU/metasploit
   sudo ./metasploit_bat_shell.sh
-fi
-if [ $ODPOWIEDZ == "2" ]
-then
-  echo "Uruchamiam wybrany skrypt... "
+ break
+ ;;
+     [2][oO]|[2])
+  echo "Starting script... "
   cd /home/kali/Desktop/KOZ1OLMENU/metasploit
   sudo ./metasploit_exe_injection.sh
-fi
-if [ $ODPOWIEDZ == "3" ]
-then
-  echo "Uruchamiam wybrany skrypt... "
+ break
+ ;;
+     [3][oO]|[3])
+  echo "Starting script... "
   cd /home/kali/Desktop/KOZ1OLMENU/metasploit
   sudo ./DOS.sh
-fi
+ break
+        ;;
+     *)
+ echo "Invalid input..."
+ ;;
+ esac
+done

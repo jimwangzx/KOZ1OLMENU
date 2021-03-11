@@ -37,4 +37,6 @@ then
 else
   echo "Kończę działanie skryptu ..."
 fi
+cd /home/kali/Desktop/K0Z1OLMENU
+sudo ./K0Z1OLMENU
 
