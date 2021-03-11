@@ -34,15 +34,21 @@ Script use:
 # Installation:
 
 1. git clone https://github.com/kozixpompa/KOZ1OLMENU.git
-2. cd KOZ1OLMENUL
+2. cd KOZ1OLMENU
 3. chmod +x installer.sh 
 4. sudo ./installer.sh
 
 <b>Script install automatically on Desktop and it must be installed there !</b>
+
+# Ngrok
+
+<b>In first use of Ngrok you must paste token. Open terminal and use:
+ 1. cd /home/kali/Desktop/KOZ1OLMENU/ngrok
+ 2. ngrok authtoken <YOUR_TOKEN>
  
 # Usage:
 
-sudo ./K0Z1OLMENU.sh
+./K0Z1OLMENU.sh
 
 
 ## DISCLAIMER
