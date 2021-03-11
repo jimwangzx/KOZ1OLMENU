@@ -1,4 +1,4 @@
-# 🔑 K0Z1OLMENU 🔑
+# 🔑 KOZ1OLMENU 🔑
 
 ![obraz_2021-02-28_143651](https://user-images.githubusercontent.com/51675112/109420379-646ead00-79d2-11eb-82e8-cd46a2bc6c82.png)
 
