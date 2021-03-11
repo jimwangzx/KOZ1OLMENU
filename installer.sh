@@ -19,6 +19,7 @@ echo "
 spin
 sleep 5
 cd ..
+cd ..
 mv K0Z1OLMENU /home/kali/Desktop
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_exe_injection.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_bat_shell.sh
