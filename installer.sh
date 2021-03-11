@@ -46,3 +46,4 @@ do
  ;;
  esac
 done
+clear
