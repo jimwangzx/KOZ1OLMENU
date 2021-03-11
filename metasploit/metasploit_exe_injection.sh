@@ -48,7 +48,7 @@ do
  case $ODPOWIEDZ2 in
      [yY][eE][sS]|[yY])
   echo "Uruchamiam skrypt... "
-  cd K0Z1OLMENU
+  cd /home/kali/Desktop/K0Z1OLMENU
   sudo ./K0Z1OLMENU.sh
  break
  ;;
