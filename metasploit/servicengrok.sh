@@ -21,9 +21,10 @@ do
   echo "Starting script... "
   cd /home/kali/Desktop/KOZ1OLMENU/ngrok
   sleep 2
+  clear
   read -r -p "Which service do you want use ? (ex. tcp/http) - " input1
   read -r -p "Which port do you want use for this service ? - " input2
-  xterm -e ./ngrok $input1 $input2
+  gnome-terminal --window --title=NGROK -- ngrok $input1 $input2
   cd ..
   sudo ./K0Z1OLMENU.sh
 
@@ -33,9 +34,10 @@ do
    echo "Starting script... "
    cd /home/kali/Desktop/KOZ1OLMENU/ngrok
    sleep 2
+   clear
    read -r -p "Which service do you want use ? (ex. tcp/http) - " input3
    read -r -p "Which port do you want use for this service ? - " input4
-   xterm -e ./ngrok_arm $input3 $input4
+   gnome-terminal --window --title=NGROK -- ngrok $input3 $input4
    cd ..
    sudo ./K0Z1OLMENU.sh
   break
