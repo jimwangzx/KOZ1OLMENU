@@ -40,7 +40,7 @@ Script use:
  
 # Usage:
 
-sudo ./KOZ1OLMENU.sh
+sudo ./K0Z1OLMENU.sh
 
 
 ## DISCLAIMER
