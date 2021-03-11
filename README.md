@@ -3,6 +3,7 @@
 ![GitHub downloads](https://img.shields.io/github/downloads/kozixpompa/KOZ1OLMENU/total?label=Download)
 ![GitHub size](https://img.shields.io/github/languages/code-size/kozixpompa/KOZ1OLMENU)
 ![Github system](https://img.shields.io/badge/Platform-Linux-red)
+![GitHub version](https://img.shields.io/badge/System-Kali%20Linux-red)
 
 ![obraz_2021-02-28_143651](https://user-images.githubusercontent.com/51675112/109420379-646ead00-79d2-11eb-82e8-cd46a2bc6c82.png)
 
