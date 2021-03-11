@@ -33,7 +33,7 @@ Script use:
 3. chmod +x installer.sh 
 4. sudo ./installer.sh
 
-
+ 
 # Usage:
 
 sudo ./KOZ1OLMENU.sh
