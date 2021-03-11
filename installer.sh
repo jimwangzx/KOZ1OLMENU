@@ -24,6 +24,8 @@ sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_bat_shell.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/K0Z1OLMENU.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/DOS.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/nmap.sh
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok_arm
 cd /home/kali/Desktop/KOZ1OLMENU
 git clone https://github.com/trustedsec/unicorn.git
 clear
