@@ -34,6 +34,7 @@ do
  case $input in
      [yY][eE][sS]|[yY])
  sudo ./K0Z1OLMENU.sh
+ clear
  break
  ;;
      [nN][oO]|[nN])
@@ -45,4 +46,3 @@ do
  ;;
  esac
 done
-clear
