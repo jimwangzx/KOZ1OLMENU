@@ -15,12 +15,12 @@ do
  read -r -p "Do you want start script again ? (y/n) - " start
  
  case $start in
-     [y][eE][sS]|[y])
+     [yY][eE][sS]|[yY])
   cd ..
   sudo ./K0Z1OLMENU.sh
  break
  ;;
-     [n][eE][sS]|[n])
+     [nN][eE][sS]|[nN])
   echo "Thanks for using my script !"
   exit 1
  break

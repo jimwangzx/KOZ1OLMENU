@@ -25,14 +25,14 @@ do
  read -r -p "Do you want start metasploit ? (y/n) - " ODPOWIEDZ
  
  case $ODPOWIEDZ in
-     [y][eE][sS]|[y])
+     [yY][eE][sS]|[yY])
   echo "Uruchamiam skrypt... "
   sleep 3
   sudo msfconsole -x 'use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp'
   sudo ./K0Z1OLMENU.sh
  break
  ;;
-     [n][eE][sS]|[n])
+     [nN][eE][sS]|[nN])
  break
         ;;
      *)
@@ -45,13 +45,13 @@ do
  read -r -p "Do you want start script again ? (y/n) - " ODPOWIEDZ2
  
  case $ODPOWIEDZ2 in
-     [y][eE][sS]|[y])
+     [yY][eE][sS]|[yY])
   echo "Uruchamiam skrypt... "
   cd ..
   sudo ./K0Z1OLMENU.sh
  break
  ;;
-     [n][eE][sS]|[n])
+     [nN][eE][sS]|[nN])
   echo "Thanks for using my script !"
   exit 1
  break
