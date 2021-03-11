@@ -31,7 +31,6 @@ do
   echo "Uruchamiam skrypt... "
   sleep 3
   sudo msfconsole -x 'use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp'
-  sudo ./K0Z1OLMENU.sh
  break
  ;;
      [nN][eE][sS]|[nN])
@@ -49,7 +48,7 @@ do
  case $ODPOWIEDZ2 in
      [yY][eE][sS]|[yY])
   echo "Uruchamiam skrypt... "
-  cd ..
+  cd K0Z1OLMENU
   sudo ./K0Z1OLMENU.sh
  break
  ;;
