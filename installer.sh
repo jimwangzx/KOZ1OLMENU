@@ -38,7 +38,7 @@ do
  case $input in
      [yY][eE][sS]|[yY])
  clear
- sudo ./K0Z1OLMENU.sh
+ ./K0Z1OLMENU.sh
  break
  ;;
      [nN][oO]|[nN])
