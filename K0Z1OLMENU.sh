@@ -9,7 +9,7 @@ echo "
 "
 echo "IF YOU CAN'T FIND VULNERABILITY YOU MUST MAKE IT !!!"
 echo "Which option do you choose ?"
-echo -e "1. METASPLOIT LOW DETACTION WINDOWS PAYLOAD \n2. METASPLOIT EXE PAYLOAD INJECT\n3. DOS SCRIPT"
+echo -e "1. METASPLOIT LOW DETACTION WINDOWS PAYLOAD \n2. METASPLOIT EXE PAYLOAD INJECT\n3. DOS SCRIPT \n4. NMAP TOOL"
 echo "If you want stop script click ctrl+c"
 while true
 do
@@ -32,6 +32,12 @@ do
   echo "Starting script... "
   cd /home/kali/Desktop/KOZ1OLMENU/metasploit
   sudo ./DOS.sh
+  break
+ ;;
+     [4][oO]|[4])
+  echo "Starting script... "
+  cd /home/kali/Desktop/KOZ1OLMENU/metasploit
+  sudo ./nmap.sh
  break
         ;;
      *)
