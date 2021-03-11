@@ -36,6 +36,7 @@ Script use:
 3. chmod +x installer.sh 
 4. sudo ./installer.sh
 
+<b>Script install automatically on Desktop and it must be installed there !</b>
  
 # Usage:
 
