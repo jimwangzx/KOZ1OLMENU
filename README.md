@@ -52,7 +52,7 @@ Script use:
 
 # Donate
 
-If you like my script you can bring me a coffee using : (www.paypal.me/k0z1ol4)
+If you like my script you can bring me a coffee using : www.paypal.me/k0z1ol4
 
 ## DISCLAIMER
 <p align="center">
