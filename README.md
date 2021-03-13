@@ -50,6 +50,7 @@ Script use:
 
 ./K0Z1OLMENU.sh
 
+# IF YOU LIKE MY SCRIPT YOU CAN BRING ME A COFFEE : paypal.me/k0z1ol4
 
 ## DISCLAIMER
 <p align="center">
