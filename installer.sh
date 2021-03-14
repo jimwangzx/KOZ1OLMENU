@@ -22,7 +22,7 @@ sudo mv KOZ1OLMENU /home/kali/Desktop
 cd KOZ1OLMENU
 git clone https://github.com/yezz123/Phisher
 sudo cp /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok
-sudo cp /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok_arm /home/kali/Desktop/K0Z1OLMENU/Phisher/ngrok_arm
+sudo cp /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok_arm /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok_arm
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_exe_injection.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_bat_shell.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/K0Z1OLMENU.sh
