@@ -39,7 +39,7 @@ do
    read -r -p "Which port do you want use for this service ? - " input4
    gnome-terminal --window --title=NGROK -- ngrok $input3 $input4
    cd ..
-   sudo ./K0Z1OLMENU.sh
+   ./K0Z1OLMENU.sh
   break
         ;;
      *)

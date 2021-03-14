@@ -48,7 +48,7 @@ do
   echo "Uruchamiam skrypt... "
   cd /home/kali/Desktop/KOZ1OLMENU
   clear
-  sudo ./K0Z1OLMENU.sh
+  ./K0Z1OLMENU.sh
  break
  ;;
      [nN][eE][sS]|[nN])

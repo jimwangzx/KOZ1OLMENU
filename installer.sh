@@ -27,6 +27,10 @@ sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/nmap.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/servicengrok.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok_arm
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/pishing.sh
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/Phisher/Phisher.sh
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok_arm
 cd /home/kali/Desktop/KOZ1OLMENU
 git clone https://github.com/trustedsec/unicorn.git
 sudo apt-get install gnome-terminal

@@ -18,7 +18,7 @@ do
      [yY][eE][sS]|[yY])
   cd ..
   clear
-  sudo ./K0Z1OLMENU.sh
+  ./K0Z1OLMENU.sh
  break
  ;;
      [nN][eE][sS]|[nN])
