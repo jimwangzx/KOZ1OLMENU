@@ -16,14 +16,14 @@ do
  case $input in
      [1][eE][sS]|[1])
   echo "Starting script... "
-  cd /home/kali/Desktop/K0Z1OLMENU/Phisher
+  cd /home/kali/Desktop/KOZ1OLMENU/Phisher
   ./Phisher.sh
   
   break
  ;;
      [2][oO]|[2])
    echo "Starting script... "
-   cd /home/kali/Desktop/K0Z1OLMENU/Phisher
+   cd /home/kali/Desktop/KOZ1OLMENU/Phisher
    mv ngrok > ngrok2
    sudo rm ngrok
    mv ngrok_arm > ngrok
