@@ -36,7 +36,7 @@ Script use:
 1. git clone https://github.com/KOZ1OL/KOZ1OLMENU.git
 2. cd KOZ1OLMENU
 3. chmod +x installer.sh 
-4. sudo ./installer.sh
+4. ./installer.sh
 
 <b>Script install automatically on Desktop and it must be installed there !</b>
 
