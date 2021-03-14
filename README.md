@@ -41,15 +41,16 @@ Script use:
 
 <b>Script install automatically on Desktop and it must be installed there !</b>
 
+# Usage:
+
+./K0Z1OLMENU.sh
+
 # Ngrok
 
 <b>In first use of Ngrok you must paste token. Open terminal and use:
  1. cd /home/kali/Desktop/KOZ1OLMENU/ngrok
  2. ./ngrok authtoken <YOUR_TOKEN>
  
-# Usage:
-
-./K0Z1OLMENU.sh
 
 # Donate
 
