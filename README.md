@@ -50,6 +50,9 @@ Script use:
 
 ./K0Z1OLMENU.sh
 
+# Donate
+
+If you like my script you can bring me a coffee using : www.paypal.me/k0z1ol4
 
 ## DISCLAIMER
 <p align="center">
