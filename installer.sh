@@ -19,6 +19,12 @@ echo "
 spin
 cd ..
 sudo mv KOZ1OLMENU /home/kali/Desktop
+cd KOZ1OLMENU
+git clone https://github.com/yezz123/Phisher
+mv /home/kali/Desktop/KOZ1OLMENU/install/ngrok /home/kali/Desktop/K0Z1OLMENU/Phisher
+mv /home/kali/Desktop/KOZ1OLMENU/install/ngrok_arm /home/kali/Desktop/K0Z1OLMENU/Phisher
+cd ..
+sudo rm -r install
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_exe_injection.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_bat_shell.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/K0Z1OLMENU.sh
