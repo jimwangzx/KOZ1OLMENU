@@ -26,6 +26,7 @@ Script use:
 - Nmap
 - gnome-terminal
 - Ngrok
+- Pisher (https://github.com/yezz123/Phisher)
 
 <b>NOW SCRIPT WORKS ONLY ON KALI LINUX !!! </b> 
 
