@@ -40,7 +40,7 @@ sudo apt-get install gnome-terminal
 clear
 while true
 do
- read -r -p "Do you want start script ? [Y/n] " input
+ read -r -p "Do you want start script ? [Y/n] -" input
  
  case $input in
      [yY][eE][sS]|[yY])

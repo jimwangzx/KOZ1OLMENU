@@ -48,7 +48,6 @@ do
  case $start in
      [yY][eE][sS]|[yY])
   cd ..
-  cd metasploit
   ./K0Z1OLMENU.sh
  break
  ;;
