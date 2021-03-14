@@ -18,6 +18,8 @@ KOZ1OLMENU It's a hacking menu which can:
 - Make DOS attack using HPING3 method
 - Search device in network using Nmap -sn parametr
 - Search open ports on specific IP adress
+- Set port forwarding to specyfic port using ngrok
+- Create a pishing page with automatic port forwarding 
 
 Script use:
 - Metasploit
