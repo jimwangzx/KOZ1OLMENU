@@ -21,10 +21,9 @@ cd ..
 sudo mv KOZ1OLMENU /home/kali/Desktop
 cd KOZ1OLMENU
 git clone https://github.com/yezz123/Phisher
-mv /home/kali/Desktop/KOZ1OLMENU/install/ngrok /home/kali/Desktop/K0Z1OLMENU/Phisher
-mv /home/kali/Desktop/KOZ1OLMENU/install/ngrok_arm /home/kali/Desktop/K0Z1OLMENU/Phisher
-cd ..
-sudo rm -r install
+sudo cp /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok /home/kali/Desktop/K0Z1OLMENU/Phisher
+sudo cp /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok_arm /home/kali/Desktop/K0Z1OLMENU/Phisher
+
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_exe_injection.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_bat_shell.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/K0Z1OLMENU.sh
@@ -37,7 +36,6 @@ sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/pishing.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/Phisher/Phisher.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok_arm
-cd /home/kali/Desktop/KOZ1OLMENU
 git clone https://github.com/trustedsec/unicorn.git
 sudo apt-get install gnome-terminal
 clear
