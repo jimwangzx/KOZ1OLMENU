@@ -1,6 +1,6 @@
 #! /bin/bash
 # METASPLOIT AUTOMATIC SCRIPT INJECT PAYLOAD TO EXE FILE
-echo "
+echo "$(tput setaf 3)
 
  ███▄ ▄███▓▓█████▄▄▄█████▓ ▄▄▄        ██████  ██▓███   ██▓     ▒█████   ██▓▄▄▄█████▓
 ▓██▒▀█▀ ██▒▓█   ▀▓  ██▒ ▓▒▒████▄    ▒██    ▒ ▓██░  ██▒▓██▒    ▒██▒  ██▒▓██▒▓  ██▒ ▓▒

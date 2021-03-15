@@ -9,7 +9,7 @@ spin(){
         sleep 0.2
         done
 }
-echo "
+echo "$(tput setaf 3)
    _____  _______________   __   __ 
   /  _/ |/ / __/_  __/ _ | / /  / / 
  _/ //    /\ \  / / / __ |/ /__/ /__
@@ -27,6 +27,7 @@ sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_bat_shell.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/K0Z1OLMENU.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/DOS.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/nmap.sh
+sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/macchanger.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/servicengrok.sh
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok_arm
