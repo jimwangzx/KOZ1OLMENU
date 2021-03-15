@@ -16,7 +16,7 @@ KOZ1OLMENU It's a hacking menu which can:
 ![obraz_2021-02-28_144538](https://user-images.githubusercontent.com/51675112/109420585-9f251500-79d3-11eb-824e-39570cc3e9d3.png)
 - Inject MSF payload in EXE file using "x" parametr on MSFVENOM
 
-![strzałki](https://user-images.githubusercontent.com/51675112/111210739-e6afc180-85cd-11eb-84ab-c348ddca1991.png)
+![strzałki2](https://user-images.githubusercontent.com/51675112/111213277-e36a0500-85d0-11eb-90d0-bfc1314c7793.png)
 
 - Make DOS attack using HPING3 method
 - Search device in network using Nmap -sn parametr
