@@ -49,6 +49,8 @@ do
    mv saved.usernames.txt /home/kali/Desktop/KOZ1OLMENU/phishing_output
    rm ip.txt
    rm usernames.txt
+   cd /home/kali/Desktop/KOZ1OLMENU/Phisher
+   mv ngrok > ngrok_arm
    sudo rm ngrok
    mv ngrok2 > ngrok
    sudo rm ngrok2

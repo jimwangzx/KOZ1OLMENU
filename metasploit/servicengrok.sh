@@ -37,7 +37,7 @@ do
    clear
    read -r -p "Which service do you want use ? (ex. tcp/http) - " input3
    read -r -p "Which port do you want use for this service ? - " input4
-   gnome-terminal --window --title=NGROK -- ./ngrok $input3 $input4
+   gnome-terminal --window --title=NGROK -- ./ngrok_arm $input3 $input4
    cd ..
    ./K0Z1OLMENU.sh
   break
