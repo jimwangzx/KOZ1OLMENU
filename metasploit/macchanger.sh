@@ -33,7 +33,7 @@ do
   read -r -p "For which interface you want change mac adress ? (ex.eth0, wlan0) - " interface
   spin
   sudo ifconfig $interface down
-  macchanger -r $interface
+  sudo macchanger -r $interface
   sudo ifconfig $interface up
   echo "MAC ADRESS CHANGED !"
   cd /home/kali/Desktop/KOZ1OLMENU
@@ -45,7 +45,7 @@ do
   read -r -p "Enter you mac adress (ex. XX:XX:XX:XX:XX:XX) - " mac
   spin
   sudo ifconfig $interface down
-  macchanger --mac $mac $interface
+  sudo macchanger --mac $mac $interface
   sudo ifconfig $interface up
   echo "MAC ADRESS CHANGED !"
   cd /home/kali/Desktop/KOZ1OLMENU
