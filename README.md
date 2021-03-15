@@ -19,7 +19,8 @@ KOZ1OLMENU It's a hacking menu which can:
 - Search device in network using Nmap -sn parametr
 - Search open ports on specific IP adress
 - Set port forwarding to specyfic port using ngrok
-- Create a phishing page with automatic port forwarding 
+- Create a phishing page with automatic port forwarding
+- Changing mac adress 
 
 Script use:
 - Metasploit
@@ -29,6 +30,7 @@ Script use:
 - gnome-terminal
 - Ngrok
 - Phisher (https://github.com/yezz123/Phisher)
+- macchanger
 
 <b>NOW SCRIPT WORKS ONLY ON KALI LINUX !!! </b> 
 
