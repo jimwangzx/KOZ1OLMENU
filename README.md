@@ -1,6 +1,6 @@
 # 🔑 KOZ1OLMENU 🔑
 
-![GitHub downloads](https://img.shields.io/github/languages/code-size/KOZ1OL/KOZ1OLMENU)
+![GitHub downloads](https://img.shields.io/github/downloads/KOZ1OL/KOZ1OLMENU/total)
 ![GitHub size](https://img.shields.io/github/languages/code-size/kozixpompa/KOZ1OLMENU)
 ![Github system](https://img.shields.io/badge/Platform-Linux-red)
 ![GitHub version](https://img.shields.io/badge/System-Kali%20Linux-red)
