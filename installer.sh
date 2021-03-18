@@ -20,6 +20,7 @@ spin
 cd ..
 sudo mv KOZ1OLMENU /home/kali/Desktop
 cd KOZ1OLMENU
+git reset --hard
 sudo cp /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok
 sudo cp /home/kali/Desktop/KOZ1OLMENU/ngrok/ngrok_arm /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok_arm
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/metasploit/metasploit_exe_injection.sh
@@ -37,7 +38,6 @@ sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok
 sudo chmod +x /home/kali/Desktop/KOZ1OLMENU/Phisher/ngrok_arm
 git clone https://github.com/trustedsec/unicorn.git
 sudo apt-get install gnome-terminal
-git reset --hard
 clear
 while true
 do
