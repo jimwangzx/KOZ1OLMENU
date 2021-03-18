@@ -18,6 +18,7 @@ echo "$(tput setaf 3)
 
 "
 spin
+git reset --hard
 git pull
 clear
 echo "$(tput setaf 3)
