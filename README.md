@@ -1,6 +1,5 @@
 # 🔑 KOZ1OLMENU 🔑
 
-![GitHub downloads](https://img.shields.io/github/downloads/KOZ1OL/KOZ1OLMENU/total)
 ![GitHub size](https://img.shields.io/github/languages/code-size/kozixpompa/KOZ1OLMENU)
 ![Github system](https://img.shields.io/badge/Platform-Linux-red)
 ![GitHub version](https://img.shields.io/badge/System-Kali%20Linux-red)
@@ -35,7 +34,7 @@ Script use:
 - Phisher (https://github.com/yezz123/Phisher)
 - macchanger
 
-<b>NOW SCRIPT WORKS ONLY ON KALI LINUX !!! </b> 
+<b>NOW SCRIPT WORKS ONLY ON KALI LINUX 2021.1 in ENGLISH LANGUAGE VERSION !!! </b> 
 
 <b>SCRIPT TESTED ON KALI LINUX ARM ON RPI4 !!! </b>
 
