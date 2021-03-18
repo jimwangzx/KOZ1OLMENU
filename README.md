@@ -34,7 +34,7 @@ Script use:
 - Phisher (https://github.com/yezz123/Phisher)
 - macchanger
 
-<b>NOW SCRIPT WORKS ONLY ON KALI LINUX !!! </b> 
+<b>NOW SCRIPT WORKS ONLY ON KALI LINUX 2021.1 in ENGLISH LANGUAGE VERSION !!! </b> 
 
 <b>SCRIPT TESTED ON KALI LINUX ARM ON RPI4 !!! </b>
 
