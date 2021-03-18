@@ -20,6 +20,7 @@ echo "$(tput setaf 3)
 spin
 git reset --hard
 git pull
+sleep 5
 clear
 echo "$(tput setaf 3)
    ____________  _______ ______  _____  __  __ _____ ____ _______  __ 
