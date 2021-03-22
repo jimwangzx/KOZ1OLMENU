@@ -62,6 +62,10 @@ Script use:
 
 If you like my script you can bring me a coffee using : www.paypal.me/k0z1ol4
 
+# Problems
+
+If you have got problems with this script write issue !
+
 ## DISCLAIMER
 <p align="center">
   TO BE USED FOR EDUCATIONAL PURPOSES ONLY
